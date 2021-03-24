@@ -126,3 +126,12 @@ li p {
 .linksArea {
   margin-top: 1rem;
 }
+
+.linksArea ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.linksArea ul li:not(:last-of-type) {
+  margin-right: .5rem;
+}
